@@ -1,0 +1,17 @@
+version: 2
+
+sources:
+  - name: olist
+    database: ecommerce_db
+    schema: processed_data
+    description: "Raw Olist e-commerce data ingested and pre-cleaned via AWS."
+    tables:
+      - name: orders_dataset
+      - name: geolocation_dataset
+      - name: products_dataset
+      - name: product_category_name_translation
+      - name: customers_dataset
+      - name: sellers_dataset
+      - name: order_items_dataset
+      - name: order_payments_dataset
+      - name: order_reviews_dataset

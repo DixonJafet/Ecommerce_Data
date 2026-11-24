@@ -1,0 +1,5 @@
+private_key.pem
+terraform.tfvars
+.terraform/
+*.tfstate
+*.tfstate.backup
